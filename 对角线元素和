@@ -1,5 +1,4 @@
-#include<stdio.h>//标准的输入输出流
-#include<stdlib.h>//system("pause")要用
+#include<stdio.h>
 int main(void)
 {
 	int a[3][3]; //定义一个三阶的矩阵，前面的3表示行，第二个表示列
@@ -17,6 +16,5 @@ int main(void)
 		sum += a[i][i];//三阶对角元素求和
 	}
 	printf("之和为%d", sum);//输出结果
-	system("pause");//将黑色窗口停留，用户按任意键后才会退出
-	return 0;//程序正常运行要返回一个0
+	return 0;
 }
