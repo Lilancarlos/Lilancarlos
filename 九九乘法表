@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main(void)
 {
 	int i, j;
@@ -16,6 +15,5 @@ int main(void)
 		}
 		printf("\n");//在每行结束后要换行
 	}
-	system("pause");//将黑色窗口停留，用户按任意键后才会退出
 	return 0;
 	}
