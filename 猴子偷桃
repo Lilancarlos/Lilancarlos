@@ -1,10 +1,10 @@
-#include<stdio.h>//头文件
-#include <stdlib.h>//调用stdlib.h库函数
+#include<stdio.h>
+#include <stdlib.h>
 int total_peach(int rest)
 {
 	return (rest + 1) * 2;
 }
-int main()//主函数
+int main()
 {
 	int peach = 0;//桃子总数
 	int rest = 1;//第10 天只剩一个桃子
@@ -15,4 +15,5 @@ int main()//主函数
 		rest = peach;
 	}
 	printf("猴子第一天一共摘了%d个桃子\n", peach);//输出猴子第一天摘下桃子的结果数
-	return 0;//函数返回值为0 
+	return 0;
+	}
