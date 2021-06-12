@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #include<string.h>
 #define  N 100
 int main(void)
@@ -24,6 +23,5 @@ int main(void)
 			break;
 		}
 	}
-	system("pause");//将黑色窗口停留，用户按任意键后才会退出
 	return 0;
 }
