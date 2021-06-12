@@ -1,6 +1,7 @@
 #include <stdio.h>
 int a[45];
 int fibon(int);
+
 int main()
 {
 	int n;
@@ -11,7 +12,7 @@ int main()
 int fibon(int n)
 {
 	if (a[n])
-		return a[n];
+	    return a[n];
 	int f;
 	switch (n)
 	{
