@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 void func(int n);
 int main(void)
 {
@@ -7,7 +6,6 @@ int main(void)
 	printf("请输入一个整数\n");//提示用户输入一个整数
 	scanf_s("%d", &n);       //将用户刚刚输进缓存区的变量的
 	func(n);
-	system("pause");         //将黑色窗口停留，用户按任意键后才会退出
 	return 0;              
 }
 void func(int n)
