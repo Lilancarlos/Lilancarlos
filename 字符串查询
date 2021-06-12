@@ -1,14 +1,14 @@
-#include<stdio.h>//标准的输入输出流
-#include<stdlib.h>//system("pause")要用
-#include<string.h>//因为要用到strcmp函数
-#define  N 100//宏定义的形式，以后如果出现N的话，就将它简单的替换为100
-int main(void)//主函数
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define  N 100
+int main(void)
 {
 	char a[N][N];//定义一个字符串的二维数组，里面装的全都都是字符串的类别
 	char b[] = "aaa";//表示一个字符数组
-	int n, i = 0;//定义两个变量
-	printf("请输入你的字符串的个数\n");//让用户输入他想输入的字符串的个数
-	scanf_s("%d", &n);//将用户输入的缓冲区的值读入
+	int n, i = 0;
+	printf("请输入你的字符串的个数\n");
+	scanf_s("%d", &n);
 	printf("请分别输入你的字符串\n");//提示用户输入他所有的字符串
 	for (i = 0; i < n; i++)
 	{//利用for循环将用户输入缓冲区的字符串读入
@@ -25,6 +25,6 @@ int main(void)//主函数
 			break;//记得一定要break掉
 		}
 	}
-	system("pause");////将黑色窗口停留，用户按任意键后才会退出
-	return 0;//程序正常运行要返回一个0
+	system("pause");//将黑色窗口停留，用户按任意键后才会退出
+	return 0;
 }
