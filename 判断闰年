@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main(void)
 {
 	int year;//定义一个整形的变量
@@ -14,6 +13,5 @@ int main(void)
 	{//如果不满足上面的if条件的话，那就说明不是一个闰年
 		printf("该年不是一个闰年\n");
 	}
-	system("pause");////将黑色窗口停留，用户按任意键后才会退出
 	return 0;
 }
