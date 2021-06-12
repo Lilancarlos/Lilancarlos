@@ -1,11 +1,11 @@
-#include<stdio.h>//标准的输入输出流
-#include<stdlib.h>//system("pause")要用
-int main(void)//主函数
+#include<stdio.h>
+#include<stdlib.h>
+int main(void)
 {
 	char ch;//定义一个char类型的字符
 	printf("请输入一个字符\n");//提示用户应该输入一个字符
 	ch = getchar();
-	getchar();//将字符后的换行符利用getchar（）的形式吸收掉
+	getchar();
 	if (ch>='0'&&ch<='9')
 	{//如果ch>='0'&&ch<='9'，说明他是一个数字
 		printf("该为一个数字\n");
@@ -26,6 +26,6 @@ int main(void)//主函数
 	{//如果都不满足以上四种情况的话，说明他是一个其他字符
 		printf("该为一个其他字符\n");
 	}
-	system("pause");////将黑色窗口停留，用户按任意键后才会退出
-	return 0;//程序正常运行要返回一个0
+	system("pause");//将黑色窗口停留，用户按任意键后才会退出
+	return 0;
 }
