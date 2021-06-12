@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main(void)
 {
 	char ch;//定义一个char类型的字符
@@ -26,6 +25,5 @@ int main(void)
 	{//如果都不满足以上四种情况的话，说明他是一个其他字符
 		printf("该为一个其他字符\n");
 	}
-	system("pause");//将黑色窗口停留，用户按任意键后才会退出
 	return 0;
 }
