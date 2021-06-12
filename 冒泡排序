@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<stdlib.h>
 #define  n 10
 int main(void)
 {
@@ -26,6 +25,5 @@ int main(void)
 	{
 		printf("%d\t", a[i]);////利用for循环遍历输出a[i]的值
 	}
-	system("pause");////将黑色窗口停留，用户按任意键后才会退出
 	return 0;//程序正常运行要返回一个0
 }
